@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Básicas de HTML,atributos y valores</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="container">
+
+                <h1 class="logo"><img src="imagenes/logo.PNG" width="30" height="40" alt="logo principal">
+                    <span>HtmlDesign</span> </h1>
+            </div>
+            <nav class="menu-area">
+                <ul>
+                    <li> <a href="index.html"><i class="fa fa-home menu-area--icon"></i>Inicio</a> </li>
+                    <li><a href="#"><i class="fa fa-book-open menu-area--icon"></i>temas</a>
+                        <ul class="dropdown-1">
+                            <li><a href="tema1.html">tema 1</a></li>
+                            <li><a href="tema2.html">tema 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-laptop menu-area--icon"></i>Recursos Digitales</a>
+                        <ul class="dropdown-1">
+                            <li><a href="recursosDigitales1.html">Recurso 1</a></li>
+                            <li><a href="recursosDigitales2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa fa-book menu-area--icon"></i>Aprendizaje</a>
+                        <ul class="dropdown-1">
+                            <li><a href="aprendizaje1.html">Actividad 1</a></li>
+                            <li><a href="aprendizaje2.html">Actividad 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa fa-info menu-area--icon"></i>Acerca de</a>
+                        <ul class="dropdown-1">
+                            <li><a href="acerca.html">Autor</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            
+            <h1>Etiquetas nuevas en HTML5 </h1> <br><br>
+            <center>
+                <img src="imagenes/codigo-etiquetas-nuevas-html5.PNG" width="350" height="350" alt="etiquetas-nuevas-html5">
+            </center>
+            <br><br>
+            <article>
+                <p>
+                    HTML5 ha venido a solucionar, entre otras cosas, la falta de un criterio para definir el contenido
+                    semántico de una página web agregando una serie de etiquetas destinadas a facilitar la estructura
+                    del documento desde el punto de vista de su significado.
+                    <br><br><b>section</b> Esta etiqueta sirve para agrupar elementos relacionados entre sí de forma
+                    temática. Los section creados a nivel del body serán aquellos cuyo contenido de significado a la
+                    página, o sea, formen el contenido principal de la misma.
+                    <br><br><b>article</b> Esta etiqueta es «la última etiqueta con significado semántico».
+                    Habitualmente se utiliza dentro de un section para separar las unidades de contenido con significado
+                    semántico.
+                    <br><br><b>header</b> Creada para incluir información destinada a ayudar en la navegación. Suele
+                    incluir un H1 y, de declararse a nivel de body, la etiqueta nav.
+                    <br><br><b>nav</b> Esta etiqueta la utilizaremos para incluir el menú de navegación.
+                    <br><br><b>footer</b> Destinada a incluir la información sobre el elemento que lo contiene (autoría,
+                    propiedad, enlaces…)
+                    <br><br><b>aside</b> Su uso indicado es para agrupar el contenido a visualizar en la página, pero
+                    que no forma parte del contenido principal de la página.
+                    <br><br>
+                    Estas nuevas etiquetas permiten varios niveles de anidamiento entre sí. Por ejemplo, un section (por
+                    definición del estándar) debe tener un header y un footer, además de los article necesarios,
+                    pudiendo incluso tener otros section en su interior.<br><br>
+
+                    A nivel de body también podemos tener un header y footer, estando dentro del header la etiqueta nav
+                    con el menú del sitio web.<br><br>
+
+                    Los aside también pueden estar a nivel de body, section e incluso article.<br><br>
+
+                    Todo esto aporta un alto grado de complejidad a la estructura del documento, aunque aporta una
+                    enorme flexibilidad para estructurar correctamente el contenido de la página desde le punto de vista
+                    semántico.<br><br>
+
+                   
+                <h6> Rolando, C. (2003). HTML5 y su estructura básica – PHP paso a paso. Recuperado de  https://rolandocaldas.com/php/html5-estructura-basica </h6>
+                <br><br><br><br>
+                </p>
+
+
+            </article>
+
+        </section>
+        <aside>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        
+        </aside>
+
+        <footer>
+            <h4>Correo: dasanchezcal@unadvirtual.edu.co</h4>
+            <h4>Skype: david.ale0608@hotmail.com</h4>
+            <h4>05-04-2021</h4>
+        </footer>
+    </main>
+</body>
+
+</html>

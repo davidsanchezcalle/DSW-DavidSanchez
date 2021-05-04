@@ -1,0 +1,66 @@
+.logo{
+    float: left;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    left: 0;
+    
+}
+.logo span{
+    font-weight: 300;
+    color:#fff;
+}
+
+.contenedorLogo{
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    grid-column: 1/4;
+    background:#34495E;
+    
+}
+
+footer {
+    text-align: center;
+    background:#34495E;
+    color:#fff;
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+}
+
+section {
+    background-image: radial-gradient(circle at 50% -20.71%, #cbe7e1 0, #cae7e3 6.25%, #c9e7e6 12.5%, #c9e7e8 18.75%, #c9e7eb 25%, #c9e7ed 31.25%, #cae6ef 37.5%, #cbe6f1 43.75%, #cde5f2 50%, #cfe4f3 56.25%, #d1e4f4 62.5%, #d4e3f5 68.75%, #d7e2f5 75%, #dae1f5 81.25%, #dde0f4 87.5%, #e0e0f4 93.75%, #e3dff2 100%);
+    -webkit-box-shadow: 5px 4px 19px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 4px 19px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 4px 19px -1px rgba(0,0,0,0.75);
+}
+
+aside {
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+    -webkit-box-shadow: 5px 4px 19px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 4px 19px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 4px 19px -1px rgba(0,0,0,0.75);
+}
+
+
+h1,h3{
+    color:rgb(44, 46, 43);
+    text-align: center;
+}
+
+nav.navbar {
+    background-color: #34495E;
+}
+
+.navbar a {
+    margin-left: 10px;
+  }
+  .navbar a i {
+    margin-right: 5px;
+  }
